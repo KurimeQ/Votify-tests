@@ -41,7 +41,7 @@ test('Verify onboarding page texts', async ({ page }) => {
   });
 });
 
-test.slow('Lets get started onboarding', async ({ page }) => {
+test('Lets get started onboarding', async ({ page }) => {
   test.info().annotations.push({
     type: 'Test',
     description: 'This test verifies clicking "Lets get started" button navigates to the next screen.'
